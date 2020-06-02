@@ -12,6 +12,7 @@ def deposit(money)
   @balance += money
 end
 
-
+def display_balance
+  puts #{b
 
 end
