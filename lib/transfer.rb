@@ -14,7 +14,7 @@ end
 
 def execute_transaction
   if sender.balance > amount && valid?
-  
+  @status = "complete"
 end 
   
   
