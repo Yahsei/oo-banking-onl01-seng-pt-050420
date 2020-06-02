@@ -13,7 +13,7 @@ def valid?
 end
 
 def execute_transaction
-  if sender.balance > amount && valid? && status == "pending"
+  if sender.balance > amount && valid? && @tatus == "pending"
     sender.balance -= amount 
     receiver.balance += amount
     @status = "complete"
