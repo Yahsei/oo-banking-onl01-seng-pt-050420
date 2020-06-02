@@ -23,8 +23,7 @@ def execute_transaction
 end 
 
 def reverse_transfer
-  @status = "complete"
-
+  
 
 
 end
