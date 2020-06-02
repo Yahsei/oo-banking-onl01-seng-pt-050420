@@ -19,6 +19,7 @@ def execute_transaction
     @status = "complete"
 end 
 end
+
 end 
   
   
