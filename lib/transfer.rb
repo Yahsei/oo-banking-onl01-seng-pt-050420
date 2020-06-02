@@ -23,7 +23,10 @@ def execute_transaction
 end 
 
 def reverse_transfer
-  
+  if sender.balance > amount && valid? && @status == "pending"
+  sender.balance -= amount 
+  receiver.balance += amount
+  @status = "complete"
 
 
 end
