@@ -5,7 +5,7 @@ attr_reader :name
 def initialize(name)
   @name = name
   @balance = balance
-  @status = pending
+  @status = "pending"
 end
 
 
